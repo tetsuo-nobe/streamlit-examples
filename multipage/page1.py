@@ -1,6 +1,6 @@
 from PIL import Image
 import streamlit as st
-from save import st_render
+
 
 st.header(':rainbow[ページ 1]')
 
@@ -18,4 +18,4 @@ st.file_uploader('画像ファイルをアップロードしてください',
 if 'image_upload' in st.session_state:
     img = st.session_state.image_upload
     st.image(img)
-    #st_render(img)
+

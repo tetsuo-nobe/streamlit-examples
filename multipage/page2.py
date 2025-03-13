@@ -1,6 +1,6 @@
 from PIL import Image, ImageOps
 import streamlit as st
-from save import st_render
+
 
 st.header(':rainbow[ページ 2]')
 
