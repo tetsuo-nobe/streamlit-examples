@@ -20,3 +20,6 @@ pip install opencv-python
 
 アイコン一覧
 https://fonts.google.com/icons?hl=ja&icon.size=24&icon.color=%231f1f1f
+
+pip install openpyxl
+pip install jinja2
